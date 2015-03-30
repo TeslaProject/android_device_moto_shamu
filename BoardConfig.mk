@@ -24,7 +24,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Inline kernel building
 TARGET_GCC_VERSION_ARM := 4.8
-TARGET_KERNEL_CONFIG := franco_defconfig	
+TARGET_KERNEL_CONFIG := shamu_defconfig	
 TARGET_KERNEL_SOURCE := kernel/moto/shamu		
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb	
 
