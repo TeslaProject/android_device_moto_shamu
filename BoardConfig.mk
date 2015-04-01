@@ -31,7 +31,7 @@ GRAPHITE_OPTS := true
 TARGET_GCC_VERSION_EXP := 4.9
 TARGET_NO_BOOTLOADER := true
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
-TARGET_GCC_VERSION_ARM := 4.9-cortex-a15
+TARGET_GCC_VERSION_ARM := 4.9
 # Define kernel config for inline building
 TARGET_KERNEL_CONFIG := despair_defconfig
 TARGET_KERNEL_SOURCE := kernel/moto/shamu
