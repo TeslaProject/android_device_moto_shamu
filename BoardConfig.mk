@@ -23,7 +23,9 @@ TARGET_CPU_VARIANT := krait
 TARGET_NO_BOOTLOADER := true
 
 # Inline kernel building
-TARGET_GCC_VERSION_ARM := 4.9
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+
 TARGET_KERNEL_CONFIG := lk_defconfig		
 TARGET_KERNEL_SOURCE := kernel/moto/shamu		
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb	
